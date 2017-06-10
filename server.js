@@ -39,3 +39,4 @@ app.use(function(req, res, next) {
 });
 
 ioServer.listen(port);
+console.log("your app is running");

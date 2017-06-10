@@ -11,6 +11,7 @@ var config 		= require('../config');
  *
  */
 var init = function () {
+	console.log("session have been made succefully")
 	if(process.env.NODE_ENV === 'production') {
 		return session({
 			secret: config.sessionSecret,
