@@ -123,7 +123,7 @@ console.log("socket hae been established")
 	// Force Socket.io to ONLY use "websockets"; No Long Polling.
 	io.set('transports', ['websocket']);
 
-	// Using Redis
+	// Using Redis 
 
 	// Allow sockets to access session data
 	io.use((socket, next) => {
