@@ -6,7 +6,9 @@
 }
 
 body {
-    background: #f32a22;
+   background-image: url("1.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
     font-family: "Roboto", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -388,7 +390,7 @@ a.logout-btn {
 a.logout-btn:hover,
 a.logout-btn:active,
 a.logout-btn:focus {
-    background-color: rgb(245, 106, 99);
+    background-color: rgb(128, 198, 99);
 }
 
 .controls {
