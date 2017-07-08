@@ -18,7 +18,7 @@ Mongoose.connect(dbURI);
 Mongoose.connection.on('error', function(err) {
 	if(err) throw err;
 });
-console.log("connections have been made succefully");
+
 // mpromise (mongoose's default promise library) is deprecated, 
 // Plug-in your own promise library instead.
 // Use native promises

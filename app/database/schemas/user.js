@@ -22,7 +22,7 @@ var UserSchema = new Mongoose.Schema({
     picture:  { type: String, default:  DEFAULT_USER_PICTURE}
 });
 
-/**n
+/**
  * Before save a user document, Make sure:
  * 1. User's picture is assigned, if not, assign it to default one.
  * 2. Hash user's password
@@ -30,7 +30,7 @@ var UserSchema = new Mongoose.Schema({
  */
 UserSchema.pre('save', function(next) {
     var user = this;
-console.log("pre save have been done")
+
     // ensure user picture is set
     if(!user.picture){
         user.picture = DEFAULT_USER_PICTURE;
