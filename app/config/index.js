@@ -1,7 +1,7 @@
 'use strict'
 
 var init = function () {
-console.log("configurastions have been made");
+console.log("configurations have been made");
 	if(process.env.NODE_ENV === 'production') {
 		
 		return {
