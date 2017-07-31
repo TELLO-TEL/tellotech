@@ -52,7 +52,7 @@ var init = function(){
 
 	// In case of Facebook, tokenA is the access token, while tokenB is the refersh token.
 	// In case of Twitter, tokenA is the token, whilet tokenB is the tokenSecret.
-	/*var verifySocialAccount = function(tokenA, tokenB, data, done) {
+	var verifySocialAccount = function(tokenA, tokenB, data, done) {
 		User.findOrCreate(data, function (err, user) {
 	      	if (err) { return done(err); }
 			return done(err, user); 
@@ -60,10 +60,10 @@ var init = function(){
 	};
 
 	// Plug-in Facebook & Twitter Strategies
-	passport.use(new FacebookStrategy(config.facebook, verifySocialAccount));
+	//passport.use(new FacebookStrategy(config.facebook, verifySocialAccount));
 	passport.use(new TwitterStrategy(config.twitter, verifySocialAccount));
 
-	return passport;*/
+	return passport;
 }
 	
 module.exports = init();
