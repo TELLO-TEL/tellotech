@@ -1,25 +1,26 @@
 {
     "db": {
         "username": "Tello",
-		"password": "13dochesterS",
-		"host": "ds021010.mlab.com",
-		"port": "21010",
-		"name": "loginapp"     
-       
+        "password": "13dochesterS",
+        "host": "ds021010.mlab.com",
+        "port": "21010",
+        "name": "loginapp"
+
     },
+
     "sessionSecret": "EJLWClaghRoNyD1NReN8H-NYmjMZkePD",
     "facebook": {
-		"clientID": "<AppID>",
-		"clientSecret": "<AppSecret>",
-		"callbackURL": "/auth/facebook/callback",
-		"profileFields": ["id", "displayName", "photos"]
-	},
-	"twitter": {
-		"consumerKey": "<ConsumerKey>",
-		"consumerSecret": "<ConsumerSecret>",
-		"callbackURL": "/auth/twitter/callback",
-		"profileFields": ["id", "displayName", "photos"]
-	}
+        "clientID": "<AppID>",
+        "clientSecret": "<AppSecret>",
+        "callbackURL": "/auth/facebook/callback",
+        "profileFields": ["id", "displayName", "photos"]
+    },
+    "twitter": {
+        "consumerKey": "<ConsumerKey>",
+        "consumerSecret": "<ConsumerSecret>",
+        "callbackURL": "/auth/twitter/callback",
+        "profileFields": ["id", "displayName", "photos"]
+    }
 
 
 }
