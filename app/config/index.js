@@ -14,7 +14,7 @@ console.log("configurations have been made");
         name: "loginapp"
 
 			},
-			sessionSecret: process.env.sessionSecret,
+			sessionSecret: 'EJLWClaghRoNyD1NReN8H-NYmjMZkePD',
 			
 			
 			
