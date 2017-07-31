@@ -7,20 +7,7 @@
         "name": "loginapp"
 
     },
-
-    "sessionSecret": "EJLWClaghRoNyD1NReN8H-NYmjMZkePD",
-    "facebook": {
-        "clientID": "<AppID>",
-        "clientSecret": "<AppSecret>",
-        "callbackURL": "/auth/facebook/callback",
-        "profileFields": ["id", "displayName", "photos"]
-    },
-    "twitter": {
-        "consumerKey": "<ConsumerKey>",
-        "consumerSecret": "<ConsumerSecret>",
-        "callbackURL": "/auth/twitter/callback",
-        "profileFields": ["id", "displayName", "photos"]
-    }
-
+     "sessionSecret": "EJLWClaghRoNyD1NReN8H-NYmjMZkePD"
+    
 
 }

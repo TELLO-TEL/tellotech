@@ -60,7 +60,7 @@ router.post('/register', function(req, res, next) {
 
 // Social Authentication routes
 // 1. Login via Facebook
-router.get('/auth/facebook', passport.authenticate('facebook'));
+/*router.get('/auth/facebook', passport.authenticate('facebook'));
 router.get('/auth/facebook/callback', passport.authenticate('facebook', {
 		successRedirect: '/rooms',
 		failureRedirect: '/',
@@ -74,7 +74,7 @@ router.get('/auth/twitter/callback', passport.authenticate('twitter', {
 		failureRedirect: '/',
 		failureFlash: true
 }));
-
+*/
 // Rooms
 router.get('/rooms', [User.isAuthenticated, function(req, res, next) {
 	Room.find(function(err, rooms){
