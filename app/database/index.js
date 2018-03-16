@@ -6,12 +6,7 @@ var logger 		= require('../logger');
 
 // Connect to the database
 // construct the database URI and encode username and password.
-var dbURI = "mongodb://" + 
-			encodeURIComponent(config.db.username) + ":" + 
-			encodeURIComponent(config.db.password) + "@" + 
-			config.db.host + ":" + 
-			config.db.port + "/" + 
-			config.db.name;
+var dbURI = "mongodb://localhost/chatapp" 
 Mongoose.connect(dbURI);
 
 // Throw an error if the connection fails

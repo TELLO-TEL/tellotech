@@ -7,12 +7,7 @@ console.log("configurations have been made");
 		return {
 			db: {
 			
-			username: "Tello",
-        password: "13dochesterS",
-        host: "ds021010.mlab.com",
-        port: "21010",
-        name: "loginapp"
-
+			
 			},
 			sessionSecret: 'EJLWClaghRoNyD1NReN8H-NYmjMZkePD',
 			
